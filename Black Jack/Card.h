@@ -35,7 +35,7 @@ private:
 	CardSuit m_suit;
 
 public:
-	Card(CardRank rank, CardSuit suit);
+	Card(CardRank rank = MAX_RANKS, CardSuit suit = MAX_SUITS);
 
 	void printCard() const;
 

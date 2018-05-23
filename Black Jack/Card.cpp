@@ -1,7 +1,7 @@
 #include "Card.h"
 #include <iostream>
 
-Card::Card(Card::CardRank rank = Card::MAX_RANKS, Card::CardSuit suit = Card::MAX_SUITS) : m_rank(rank), m_suit(suit)
+Card::Card(CardRank rank, CardSuit suit) : m_rank(rank), m_suit(suit)
 {
 
 }
